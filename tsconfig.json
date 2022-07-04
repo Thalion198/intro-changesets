@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,  
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noEmitOnError": true,
+    "noEmit": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "baseUrl": ".",
+    "lib": ["DOM"],
+    "module": "es6",
+    "experimentalDecorators": true,
+    "paths": {
+      "ember-boilerplate/tests/*": [
+        "tests/*"
+      ],
+      "ember-boilerplate/*": [
+        "app/*"
+      ],
+      "ember-cli-flash/*": [
+        "node_modules/ember-cli-flash"
+      ],
+      "fetch": [
+        "node_modules/ember-fetch"
+      ],
+      "ember-changeset-validations": [
+        "node_modules/ember-form-changeset-validations/types/ember-changeset-validations"
+      ],
+      "ember-changeset-validations/*": [
+        "node_modules/ember-form-changeset-validations/types/ember-changeset-validations/*"
+      ],
+      "*": [
+        "types/*"
+      ]
+    }
+  },
+  "include": [
+    "app/**/*",
+    "tests/**/*",
+    "types/**/*"
+  ]
+}
